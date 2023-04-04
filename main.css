@@ -16,6 +16,24 @@ body {
     background-color: rgba(41, 41, 41, 1);
 }
 
+#mtext {
+    display: flex;
+    grid-area: text;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+#mtext h2 {
+    font-size: 3vw;
+    margin-bottom: 20px;
+}
+
+#mtext p {
+    font-size: 1.5vw;
+}
 
 section {
     overflow: hidden;
@@ -41,6 +59,10 @@ section {
     border-top: none;
 }
 
+main p {
+    font-size: xx-large;
+}
+
 main {
     border-left: black solid 5px;
     border-top: black solid 5px;
@@ -52,7 +74,7 @@ main {
     font-size: 5px 5px;
     grid-template-areas:
         "text artver"
-        "arthor artver";
+        "text artver";
 }
 
 aside {
@@ -197,7 +219,7 @@ body {
 }
 
 #prof {
-    
+
     height: 18vh;
     width: auto;
     border: black 3px;
@@ -245,7 +267,7 @@ body {
 
 #artv a img {
     min-width: none;
-    min-height:none;
+    min-height: none;
     border: rgb(125, 0, 0) solid 15px;
     transition: 0.3s;
     width: inherit;
@@ -282,7 +304,7 @@ body {
     align-items: center;
     justify-content: center;
     min-width: 200px;
-    
+
     width: 95%;
     height: 98%;
     grid-area: artver;
