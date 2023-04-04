@@ -34,6 +34,8 @@ body {
     font-size: xx-large;
     grid-template-columns: 20% 10% 40% 10% 20%;
     grid-template-areas: "powrot none1 titl none2 none3";
+    min-height: 20px;
+    font-size: 5vh;
 }
 
 .back {
@@ -112,6 +114,7 @@ body {
 #back a {
     color: white;
     text-decoration: none;
+    font-size: 100px 100px;
 }
 
 #back:hover {
@@ -142,4 +145,8 @@ img {
 aside a:hover {
     width: 72%;
     border-color: rgba(129, 0, 0, 1);
+}
+
+#back a:hover{
+    background-color: rgb(99, 0, 0);
 }

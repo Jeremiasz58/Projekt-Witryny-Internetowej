@@ -18,6 +18,7 @@ body {
 
 
 section {
+    overflow: hidden;
     display: grid;
     background-color: rgba(41, 41, 41, 1);
     grid-area: section;
@@ -48,7 +49,7 @@ main {
     grid-template-rows: 40% 60%;
     background-color: rgb(195, 195, 195);
     grid-area: content;
-    font-size: x-large;
+    font-size: 5px 5px;
     grid-template-areas:
         "text artver"
         "arthor artver";
@@ -98,7 +99,7 @@ a {
 .men3 {
     box-shadow: 4px 3px 5px 1px black;
     font-weight: bold;
-    font-size: xx-large;
+    font-size: 2.3vw;
     display: flex;
     border: black 6px ridge;
     border-bottom-left-radius: 10%;
@@ -139,6 +140,7 @@ html,
 body {
     background-color: rgba(41, 41, 41, 1);
     height: 100%;
+    overflow-x: hidden;
 }
 
 .men1:hover {
@@ -190,10 +192,13 @@ body {
     height: 100%;
     width: 100%;
     grid-area: image1;
+    min-height: 1vh;
+    min-width: inherit;
 }
 
 #prof {
-    height: 95%;
+    
+    height: 18vh;
     width: auto;
     border: black 3px;
     border-style: solid;
@@ -216,9 +221,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
-    width: 100%;
+    width: auto;
+    height: 140vh;
     grid-area: imgg;
+    min-width: none;
+    min-height: none;
 }
 
 #artv header {
@@ -233,13 +240,16 @@ body {
     border-right: none;
     border-left: none;
     height: 100%;
+    font-size: 2.5vw;
 }
 
 #artv a img {
-    scale: inherit;
-    border: rgb(125, 0, 0) solid 60px;
-    border-radius: 3%;
-    transition: 0.5s;
+    min-width: none;
+    min-height:none;
+    border: rgb(125, 0, 0) solid 15px;
+    transition: 0.3s;
+    width: inherit;
+    height: inherit;
 }
 
 #artv footer {
@@ -251,6 +261,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 2vw;
 }
 
 #artv a {
@@ -262,6 +273,7 @@ body {
 }
 
 #artv {
+
     background-color: rgb(128, 128, 128);
     border: black solid 4px;
     border-radius: 5%;
@@ -269,9 +281,10 @@ body {
     text-align: center;
     align-items: center;
     justify-content: center;
-    scale: 95%;
-    width: 100%;
-    height: 100%;
+    min-width: 200px;
+    
+    width: 95%;
+    height: 98%;
     grid-area: artver;
     display: grid;
     grid-template-columns: 100%;
@@ -284,7 +297,7 @@ body {
 }
 
 #artv a img:hover {
-    border-radius: 10%;
+    border-radius: 2%;
     border-color: rgb(255, 250, 220);
 }
 
@@ -380,28 +393,25 @@ body {
 }
 
 .as1:hover {
-    font-size: x-large;
+
     color: rgb(125, 0, 0);
     width: 75%;
     height: 50%;
     border-color: rgb(125, 0, 0);
-    border-width: 10px;
 }
 
 .as2:hover {
-    font-size: x-large;
+
     color: rgb(125, 0, 0);
     width: 75%;
     height: 50%;
-    border-width: 10px;
+
 }
 
 .as3:hover {
-    font-size: x-large;
     color: rgb(125, 0, 0);
     width: 75%;
     height: 50%;
-    border-width: 10px;
 }
 
 aside:hover {
