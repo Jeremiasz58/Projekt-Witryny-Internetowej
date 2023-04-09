@@ -3,8 +3,8 @@
     height: 100vh;
     margin: none;
     display: grid;
-    grid-template-columns: 7% 15% 78%;
-    grid-template-rows: 20% 5% 75%;
+    grid-template-columns: 7vw 15vw 78vw;
+    grid-template-rows: 20vh 5vh 75vh;
     grid-template-areas:
         "aside section footer"
         "aside section line"
@@ -236,6 +236,8 @@ body {
     display: block;
     color: white;
     grid-area: textinfo;
+    width: auto;
+    height: auto;
 
 }
 
