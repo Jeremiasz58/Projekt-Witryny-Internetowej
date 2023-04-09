@@ -1,1 +1,1 @@
-# Moja strona
+# Projekt witryny internetowej
