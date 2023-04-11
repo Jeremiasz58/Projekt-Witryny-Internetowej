@@ -1,0 +1,184 @@
+body {
+    margin: 0;
+    width: auto;
+    overflow-y: hidden;
+}
+
+.container {
+    background-image: url('backg.png');
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: 12vh 5vh 66vh 5vh 12vh;
+    grid-template-areas:
+        "navig"
+        "line"
+        "content"
+        "line2"
+        "bot";
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 3.5vw;
+    background-image: url(backg3.png);
+    width: 15vw;
+    text-align: center;
+    border: rgb(255, 255, 255) ridge 0.3vw;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    transition: 0.2s;
+}
+
+#nav2,
+#nav1 {
+    display: flex;
+    grid-area: navig;
+    align-items: center;
+    justify-content: center;
+    gap: 14vw;
+    background-color: rgb(90, 0, 0);
+    border-bottom: rgb(255, 255, 255) solid 1.1vh;
+}
+
+a:hover {
+    text-shadow: 0vw 0vw 1.4vw rgb(255, 0, 0);
+    scale: 1.05;
+}
+
+#hline1 {
+    border-bottom: white solid 1.1vh;
+    grid-area: line;
+}
+
+.bot {
+    color: white;
+    display: flex;
+    grid-area: bot;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(90, 0, 0);
+    border-top: rgb(255, 255, 255) solid 1.1vh;
+}
+
+.bot a {
+    width: 5vw;
+    height: 8vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+}
+
+#hline2 {
+    border-top: white solid 1.1vh;
+    grid-area: line2;
+}
+
+.container2 {
+    background-image: url('backg.png');
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: 12vh 5vh 66vh 5vh 12vh;
+    grid-template-areas:
+        "navig"
+        "line"
+        "content"
+        "line2"
+        "bot";
+}
+
+#bot {
+    grid-area: bot;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14vw;
+    background-color: rgb(90, 0, 0);
+    border-top: rgb(255, 255, 255) solid 1.1vh;
+}
+
+#nav2 a {
+    width: 5vw;
+    height: 8vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#sec2 {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-image: url('secb2.png');
+    background-size: 130vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-position-y: center; */
+    /* background-position-x: 5vw; */
+}
+
+#nav3 {
+    display: flex;
+    gap: 10vw;
+}
+
+#nav2 a {
+    width: 5vw;
+    height: 8vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    text-decoration: none;
+    font-size: 3.5vw;
+    background-image: url(backg3.png);
+    text-align: center;
+    border: rgb(255, 255, 255) ridge 0.3vw;
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    transition: 0.2s;
+}
+
+h2,
+h3,
+p {
+    color: white;
+}
+
+#sec {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-size: 1.25vw;
+
+}
+
+#sec h2 {
+    margin: auto;
+}
+
+#about {
+    width: 20vw;
+    border-left: white groove 1vw;
+}
+
+#inter {
+    width: 40vw;
+    border-left: white groove 1vw;
+}
