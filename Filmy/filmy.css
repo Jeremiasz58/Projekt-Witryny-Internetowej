@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+}
+
+#container {
+    background-image: url('backg.png');
+    background-color: rgb(80, 80, 80);
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-rows: 10vh 5vh 70vh 5vh 10vh;
+}
+
+footer {
+    display: flex;
+    background-color: rgba(102, 0, 0, 1);
+    color: white;
+    font-weight: bold;
+    font-size: 4vw;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    width: 100vw;
+    height: 10vh;
+}
+
+footer:hover {
+    cursor: default;
+}
+
+.horl {
+    width: 100vw;
+    border: rgb(255, 255, 255) solid 0.6vw;
+    border-left: none;
+    border-right: none;
+
+}
+
+.vids {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+iframe {
+    box-shadow: 0.5vw 0.7vw 1vw 1vw rgb(143, 143, 143);
+    transition: 0.5s;
+    border: black solid 0.3vw;
+}
+
+iframe:hover {
+    box-shadow: 0.5vw 0.7vw 1vw 1vw rgb(71, 0, 0);
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 3.5vw;
+    background-image: url(backg3.png);
+    width: 15vw;
+    text-align: center;
+    border: rgb(255, 255, 255) ridge 0.3vw;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    transition: 0.2s;
+}
+
+footer a:hover {
+    text-shadow: 0vw 0vw 1.4vw rgb(255, 0, 0);
+    scale: 1.05;
+}

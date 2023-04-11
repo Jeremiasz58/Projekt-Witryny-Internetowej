@@ -1,0 +1,139 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  margin: 0;
+  padding: 0;
+  background-image: url('thumb-1920-749807.png');
+  background-repeat: no-repeat;
+  background-position: fixed;
+  background-size: 100vw auto;
+  min-width: 100vw;
+  background-color: black;
+}
+
+form {
+  background-color: rgb(59, 0, 0, 0.9);
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+  margin: auto;
+  height: 100vh;
+  width: 45vw;
+  font-size: 1.5vw;
+  border: black solid 2.5vw;
+  border-top: none;
+  border-bottom: none;
+  color: white;
+}
+
+h6 {
+  font-size: 2vw;
+  background-color: rgb(52, 52, 52);
+  font-weight: bold;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+
+form :nth-child(1) {
+  margin-top: 0vh;
+}
+
+
+
+#sel1 {
+  width: 9vw;
+  height: 4vh;
+  border: 3px rgb(107, 0, 0) solid;
+  border-radius: 2%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+  margin-top: 10px;
+  font-size: 1vw;
+  margin: auto;
+}
+
+#sel1:hover {
+  cursor: pointer;
+}
+
+#t,
+#n:hover {
+  cursor: pointer;
+}
+
+#im,
+#naz,
+#mail {
+  background-color: black;
+  color: white;
+  border: rgb(107, 0, 0) solid 3px;
+  width: 30vw;
+  height: 2.5vh;
+  margin: auto;
+  margin-bottom: 1vh;
+  border-radius: 3%;
+  padding-left: 10px;
+  padding-right: 10px;
+  vertical-align: middle;
+}
+
+#im {
+  width: 33.3vw;
+}
+
+#mail {
+  width: 32.4vw;
+}
+
+#sub {
+  background-color: rgb(126, 0, 0);
+  border: black 6px solid;
+  width: 12vw;
+  height: 6vh;
+  color: white;
+  font-size: 1.2vw;
+  font-weight: bold;
+  margin: auto;
+  transition: 0.3s;
+}
+
+#sub:hover {
+  background-color: white;
+  color: brown;
+  cursor: pointer;
+}
+
+textarea {
+  font-size: 1vw;
+}
+
+#can {
+  background-color: rgb(126, 0, 0);
+  border: black 6px solid;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  color: white;
+  font-size: 1.2vw;
+  font-weight: bold;
+  margin: auto;
+  transition: 0.3s;
+  text-decoration: none;
+  padding: 10px;
+}
+
+#can:hover {
+  background-color: white;
+  color: brown;
+
+}
+
+#difl {
+  display: flex;
+}

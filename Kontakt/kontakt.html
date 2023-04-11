@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Kontakt</title>
+  <link rel="stylesheet" href="kontakt.css" />
+</head>
+
+<body>
+
+  <form action="../index.html" method="">
+    <h6 id="ha">Dane kontaktowe</h6>
+    <div>
+      <label for=" im">Imię:</label>
+      <input type="text" required id="im" name="imie" /><br />
+      <label for="naz">Nazwisko:</label>
+      <input type="text" required id="naz" name="nazwisko" /><br />
+      <label for="mail">Email:</label>
+      <input type="text" required id="mail" name="mail" placeholder="xxxxx@yyyyyy.z" /><br />
+    </div>
+    <h6 id="hb">Treść</h6>
+    <label for="sel1">Kategoria:</label>
+    <select name="kategoria" id="sel1">
+      <option value="inne">Inne</option>
+      <option value="opinia">Opinia</option>
+      <option value="propozycja">Propozycja</option>
+      <option value="zapytanie">Zapytanie</option>
+    </select><br />
+    <div>
+      <div style="display: flex; justify-content: center; align-items: center;"></div>
+      <label for="check1">Odpowiedź wymagana:</label>
+
+      <label for="t">Tak</label>
+      <input type="radio" id="t" required name="odp_wymagana" value="Tak" />
+      <label for="n">Nie</label>
+      <input type="radio" id="n" required name="odp_wymagana" value="Nie" /><br /><br>
+    </div>
+    </div>
+    <label id="texta">Wiadomość:</label>
+    <textarea required name="wiadomosc" rows="5" style="resize: none; width: 30vw;"></textarea>
+    <input id="sub" type="submit" value="Wyślij">
+    <a href="../index.html" id="can">Anuluj</a>
+  </form>
+
+</body>
+
+</html>

@@ -1,0 +1,191 @@
+.container {
+    display: grid;
+    width: auto;
+    height: 200vh;
+    margin: none;
+    grid-template-columns: 46vw 8vw 46vw;
+    grid-template-rows: 6% 90% 4%;
+    grid-template-areas:
+        "top1 top1 top1"
+        "p1 hline1 p2"
+        "bttm bttm bttm";
+    overflow-x: hidden;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    background-color: rgba(27, 27, 27, 1);
+}
+
+
+#top {
+    display: grid;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(102, 0, 0, 1);
+    color: white;
+    border: black solid 0.7vw;
+    grid-area: top1;
+    width: 100%;
+    text-decoration: inherit;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-weight: bold;
+    font-size: xx-large;
+    grid-template-columns: 20% 10% 40% 10% 20%;
+    grid-template-areas: "powrot none1 titl none2 none3";
+    min-height: 20px;
+    font-size: 5vh;
+}
+
+.back {
+    color: white;
+    text-decoration: inherit;
+}
+
+#hline {
+    margin: auto;
+    display: flex;
+    background-color: rgb(43, 0, 0);
+    width: 80%;
+    height: 100%;
+    grid-area: hline1;
+    border: black 0.7vw;
+    border-style: solid;
+    border-bottom: none;
+    border-top: none;
+}
+
+#left {
+
+    justify-content: center;
+    gap: 10em;
+    display: flex;
+    flex-direction: column;
+    grid-area: p1;
+    background-color: rgba(27, 27, 27, 1);
+}
+
+#right {
+    justify-content: center;
+    gap: 10em;
+    display: flex;
+    flex-direction: column;
+    grid-area: p2;
+    background-color: rgba(27, 27, 27, 1);
+}
+
+#bottom {
+    display: flex;
+    grid-area: bttm;
+    background-color: rgba(102, 0, 0, 1);
+    color: white;
+    border: black solid 0.7vw;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+
+#gheader {
+    grid-area: titl;
+}
+
+#back {
+    transition: 0.3s;
+    grid-area: powrot;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+    height: 10vh;
+    text-align: center;
+    background-color: white;
+    border: solid rgba(102, 0, 0, 1) 4px;
+    background-image: url(backg2.png);
+    box-shadow: 4px 3px 5px 1px black;
+    position: fixed;
+    top: 0px;
+    border-top: none;
+    border-left: none;
+    border-bottom-right-radius: 30%;
+    color: white;
+    text-decoration: none;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+
+#back:hover {
+    height: 10.5vh;
+    width: 10.5vw;
+    background-color: black;
+    text-decoration: none;
+}
+
+
+aside a {
+    display: flex;
+    overflow: hidden;
+    width: 30vw;
+    border: solid black 8px;
+    margin: auto;
+    transition: 0.25s;
+}
+
+img {
+    overflow-x: hidden;
+    display: block;
+    overflow: hidden;
+    height: auto;
+    width: 30vw;
+    border: solid gray 5px;
+}
+
+aside a:hover {
+    scale: 1.05;
+    border-color: rgba(129, 0, 0, 1);
+}
+
+#back a:hover {
+    background-color: rgb(99, 0, 0);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #343434;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #979797;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #480000;
+}
+
+.difi {
+    width: 15vw;
+    height: auto;
+}
+
+.difi img {
+    width: 15vw;
+    height: auto;
+}
+
+.difl {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    gap: 5vw;
+}
+
+header:hover {
+    cursor: default;
+}
