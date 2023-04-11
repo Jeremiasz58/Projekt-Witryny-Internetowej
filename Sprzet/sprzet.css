@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Bevan');
+
 body {
     background-image: url('backg.png');
     padding: 0;
@@ -8,6 +10,7 @@ body {
     grid-template-areas: "f1 all f2";
     justify-content: center;
     align-items: center;
+    font-family: Bevan, cursive;
 }
 
 main {
@@ -70,7 +73,7 @@ img {
 
 article {
     text-align: center;
-    font-size: 2vw;
+    font-size: 1.5vw;
     background-color: rgb(98, 98, 98);
     color: white;
     background-image: url('backg2.png');

@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Bevan');
+
 .container {
+    font-family: Bevan, cursive;
     display: grid;
     width: auto;
     height: 200vh;
@@ -33,17 +36,18 @@ body {
     border-top: none;
     border-left: none;
     border-right: none;
-    font-weight: bold;
     font-size: xx-large;
     grid-template-columns: 20% 10% 40% 10% 20%;
     grid-template-areas: "powrot none1 titl none2 none3";
     min-height: 20px;
     font-size: 5vh;
+    letter-spacing: 0.3vw;
 }
 
 .back {
     color: white;
     text-decoration: inherit;
+
 }
 
 #hline {
@@ -114,7 +118,7 @@ body {
     color: white;
     text-decoration: none;
     font-size: 2vw;
-    font-weight: bold;
+    letter-spacing: 0.2vw;
 }
 
 
