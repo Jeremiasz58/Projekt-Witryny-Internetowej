@@ -3,6 +3,22 @@ body {
     margin: 0;
     display: flex;
     justify-content: center;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+h1 {
+    font-size: 2.5vw;
+    color: white;
+    text-decoration: underline;
+    margin-bottom: 0;
+    margin-top: 0.3vh;
+}
+
+p {
+    margin-top: 1vh;
+    color: white;
+    font-size: 1.5vw;
+
 }
 
 #container {
@@ -10,16 +26,22 @@ body {
     background-color: rgba(65, 65, 65, 0.6);
     width: 60vw;
     height: auto;
-    grid-template-rows: 8vh 100vh 50vh 8vh;
+    grid-template-rows: 8vh 92vh 50vh 8vh;
     border: rgb(169, 169, 169) ridge 20px;
     border-top: none;
     border-bottom: none;
     grid-template-areas:
-        "footer footer"
-        "text text2"
-        "text art"
-        "footer2 footer2";
+        "footer"
+        "text"
+        "art"
+        "footer2";
     margin-bottom: 0;
+}
+
+main {
+    grid-area: text;
+    padding-left: 1vw;
+    padding-right: 1vw;
 }
 
 #bttn1 {
@@ -101,6 +123,18 @@ article ul {
 }
 
 iframe {
+    margin: auto;
+    display: block;
+    box-shadow: 0.5vw 0.7vw 1vw 1vw rgb(0, 0, 0);
+    transition: 0.2s;
+}
+
+iframe:hover {
+    scale: 1.02;
+    box-shadow: 0.5vw 0.7vw 1vw 1vw rgb(0, 21, 105);
+}
+
+#tracks iframe {
     margin: auto;
     height: 10vh;
     width: 20vw;
