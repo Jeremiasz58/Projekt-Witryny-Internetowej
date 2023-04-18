@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Bahiana');
+
 body {
-    font-family: Verdana, Geneva, sans-serif;
+    font-family: Bahiana, cursive;
     margin: 0;
 }
 
 #container {
-    background-image: url('backg.png');
+    background-image: url('../backg.png');
     background-color: rgb(80, 80, 80);
     width: auto;
     height: auto;
@@ -12,16 +14,19 @@ body {
     grid-template-rows: 10vh 5vh 70vh 5vh 10vh;
 }
 
-footer {
+footer,
+header {
     display: flex;
     background-color: rgba(102, 0, 0, 1);
     color: white;
-    font-size: 3vw;
+    font-size: 4vw;
     align-items: center;
     margin: auto;
     justify-content: center;
     width: 100vw;
     height: 10vh;
+    letter-spacing: 0.1vw;
+    text-align: center;
 }
 
 footer:hover {
@@ -43,6 +48,7 @@ footer:hover {
 }
 
 iframe {
+    width: 25vw;
     box-shadow: 0.5vw 0.7vw 1vw 1vw rgb(143, 143, 143);
     transition: 0.5s;
     border: black solid 0.3vw;
@@ -56,7 +62,7 @@ footer a {
     color: white;
     text-decoration: none;
     font-size: 3vw;
-    background-image: url(backg3.png);
+    background-image: url(../backg3.png);
     width: 15vw;
     text-align: center;
     border: rgb(255, 255, 255) ridge 0.3vw;
