@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Bevan');
+@import url('https://fonts.googleapis.com/css?family=Bahiana');
 
 .container {
-    font-family: Bevan, cursive;
     display: grid;
     width: auto;
     height: 200vh;
@@ -19,6 +18,7 @@ body {
     width: 100%;
     margin: 0;
     background-color: rgba(27, 27, 27, 1);
+    font-family: Bahiana, cursive;
 }
 
 
@@ -36,11 +36,10 @@ body {
     border-top: none;
     border-left: none;
     border-right: none;
-    font-size: xx-large;
+    font-size: 5vw;
     grid-template-columns: 20% 10% 40% 10% 20%;
     grid-template-areas: "powrot none1 titl none2 none3";
     min-height: 20px;
-    font-size: 5vh;
     letter-spacing: 0.3vw;
 }
 
@@ -108,7 +107,7 @@ body {
     text-align: center;
     background-color: white;
     border: solid rgba(102, 0, 0, 1) 4px;
-    background-image: url(backg2.png);
+    background-image: url(../backg.png);
     box-shadow: 4px 3px 5px 1px black;
     position: fixed;
     top: 0px;
@@ -117,7 +116,7 @@ body {
     border-bottom-right-radius: 30%;
     color: white;
     text-decoration: none;
-    font-size: 2vw;
+    font-size: 3vw;
     letter-spacing: 0.2vw;
 }
 
