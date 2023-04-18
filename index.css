@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Bahiana');
+
 body {
     margin: 0;
     width: auto;
@@ -22,9 +24,10 @@ body {
 }
 
 a {
+    font-family: Bahiana, cursive;
     color: white;
     text-decoration: none;
-    font-size: 2.7vw;
+    font-size: 2.9vw;
     background-image: url(backg3.png);
     width: 15vw;
     text-align: center;
@@ -130,15 +133,22 @@ html {
     background-size: 130vw;
     background-repeat: no-repeat;
     background-position: center;
-    /* background-position-y: center; */
-    /* background-position-x: 5vw; */
+
 }
 
 #nav3 {
     display: flex;
-    gap: 10vw;
+    gap: 0.2vw;
     text-align: center;
     justify-content: center;
+    flex-direction: column;
+}
+
+#nav3 :nth-child(1) {
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
 }
 
 #nav3 a {
@@ -174,6 +184,11 @@ p {
     color: white;
 }
 
+p {
+    text-align: justify;
+    padding: 1rem;
+}
+
 #sec {
     display: flex;
     justify-content: space-around;
@@ -196,6 +211,15 @@ p {
     width: 40vw;
     border-left: white groove 1vw;
 }
+
+#inter h2 {
+    margin-bottom: 1rem;
+}
+
+#inter h3 {
+    margin: 0;
+}
+
 
 #boss {
     border-radius: 100%;
