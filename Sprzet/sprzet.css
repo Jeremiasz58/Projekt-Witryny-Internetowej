@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Bevan');
 
 body {
-    background-image: url('backg.png');
+    background-image: url('../backg3.png');
     padding: 0;
     margin: 0;
     display: grid;
@@ -76,7 +76,7 @@ article {
     font-size: 1.5vw;
     background-color: rgb(98, 98, 98);
     color: white;
-    background-image: url('backg2.png');
+    background-image: url('../backg.png');
 }
 
 article a {
